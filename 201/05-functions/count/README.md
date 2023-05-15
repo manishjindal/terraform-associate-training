@@ -1,0 +1,4 @@
+* count.index
+* splat expression
+  - [*]
+  - .*
