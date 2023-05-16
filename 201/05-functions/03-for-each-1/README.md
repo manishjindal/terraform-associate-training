@@ -1,3 +1,9 @@
+* count
+  - length
+* for_each
+  - list
+  - set
+
 # Using Count
 If elements are identical then use count but if the elements are not identical then use for_each
 

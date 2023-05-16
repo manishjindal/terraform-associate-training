@@ -1,10 +1,13 @@
 
 - count
 - for_each
+  - set
+  - list
+  - map
 - output
-    - for
-    - splat
-    - zipmap
+  - for
+  - splat
+  - zipmap
 
 - local
 - toset
