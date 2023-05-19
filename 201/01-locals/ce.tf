@@ -1,9 +1,14 @@
-resource "google_compute_instance" "default" {
-  name         = "test"
+locals {
+  tags = ["foo", "bar"]
+  name_prefix = "${var.environment != "" ? "tf-${var.environment}" : "tf"}"
+}
+
+resource "google_compute_instance" "myce" {
+  name         = "${local.name_prefix}-test-11"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
-  tags = ["foo", "bar"]
+  tags = local.tags
 
   boot_disk {
     initialize_params {
@@ -16,5 +21,5 @@ resource "google_compute_instance" "default" {
 
   network_interface {
     network = "default"
-  }
+}
 }

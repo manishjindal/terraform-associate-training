@@ -1,9 +1,14 @@
+locals {
+  tags = ["foo", "bar"]
+}
+
+
 resource "google_compute_instance" "default" {
-  name         = "test"
+  name         = "${terraform.workspace}-test"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
-  tags = ["foo", "bar"]
+  tags = local.tags
 
   boot_disk {
     initialize_params {

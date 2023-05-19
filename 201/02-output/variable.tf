@@ -3,3 +3,9 @@ variable project_id {
   default     = "<project_id>"
   description = "description"
 }
+
+variable region {
+  type        = string
+  default     = "us-central1"
+  description = "description"
+}

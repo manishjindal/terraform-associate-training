@@ -1,6 +1,5 @@
-/*
-resource "google_compute_instance" "default" {
-  name         = "test"
+resource "google_compute_instance" "myce" {
+  name         = "test-04"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
@@ -19,7 +18,7 @@ resource "google_compute_instance" "default" {
     network = "default"
 }
 }
-*/
+/*
 
 resource "google_compute_instance" "test" {
   name         = "test"
@@ -41,3 +40,4 @@ resource "google_compute_instance" "test" {
     network = "default"
 }
 }
+*/

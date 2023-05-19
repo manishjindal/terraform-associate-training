@@ -1,5 +1,4 @@
 ## Initialise with backend bucket.
-
 ```
 terrafrom workspace list
 ```
@@ -33,3 +32,6 @@ terraform workspace list
 
 Instead of using deault.tfstate now the state file name would be dev.tfstate
 
+Managing multiple environment 
+ - multiple backend
+ - workspace.

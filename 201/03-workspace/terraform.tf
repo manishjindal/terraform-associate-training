@@ -28,5 +28,6 @@ terraform {
     google = ">=4.0"
   }
   backend gcs {
+    bucket = "<bucket-name>"
   }
 }
