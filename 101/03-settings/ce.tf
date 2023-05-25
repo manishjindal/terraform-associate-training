@@ -16,7 +16,7 @@ resource "google_compute_instance" "default" {
 
   network_interface {
     network = "default"
-}
+  }
 }
 
 resource "google_compute_instance" "default1" {
@@ -37,5 +37,5 @@ resource "google_compute_instance" "default1" {
 
   network_interface {
     network = "default"
-}
+  }
 }

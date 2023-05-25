@@ -7,7 +7,7 @@ terraform {
   # backend gcs {
   #   bucket = "value"
   # }
-  
+
 }
 
 # terraform {

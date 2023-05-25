@@ -16,7 +16,7 @@ resource "google_compute_instance" "myce" {
 
   network_interface {
     network = "default"
-}
+  }
 }
 
 resource "google_compute_instance" "myce2" {
@@ -37,7 +37,7 @@ resource "google_compute_instance" "myce2" {
 
   network_interface {
     network = "default"
-}
+  }
 }
 
 

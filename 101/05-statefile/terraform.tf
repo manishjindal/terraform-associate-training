@@ -4,10 +4,10 @@ terraform {
   required_providers {
     google = ">=4.0"
   }
-  backend gcs {
+  backend "gcs" {
     bucket = "<gcs-bucket-name>"
   }
-  
+
 }
 
 # terraform {
