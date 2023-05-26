@@ -19,6 +19,14 @@ terraform fmt --recursive
 terraform validate
 ```
 
+## Terraform variable auto load
+```
+terraform.tfvars
+terraform.tfvars.json
+dev.auto.tfvars
+dev.auto.tfvars.json
+```
+
 ## Terraform Taint
 
 
