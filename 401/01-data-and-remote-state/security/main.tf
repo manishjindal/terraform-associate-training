@@ -1,3 +1,3 @@
 module "test-local" {
-    source = "./local-module"
+  source = "./local-module"
 }

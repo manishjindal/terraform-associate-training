@@ -1,9 +1,9 @@
-variable project_id {
+variable "project_id" {
   type        = string
   description = "description"
 }
 
-variable region {
+variable "region" {
   type        = string
   description = "description"
 }

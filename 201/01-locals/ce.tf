@@ -1,6 +1,6 @@
 locals {
-  tags = ["foo", "bar"]
-  name_prefix = "${var.environment != "" ? "tf-${var.environment}" : "tf"}"
+  tags        = ["foo", "bar"]
+  name_prefix = var.environment != "" ? "tf-${var.environment}" : "tf"
 }
 
 resource "google_compute_instance" "myce" {
@@ -21,5 +21,5 @@ resource "google_compute_instance" "myce" {
 
   network_interface {
     network = "default"
-}
+  }
 }

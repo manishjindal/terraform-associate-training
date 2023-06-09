@@ -1,5 +1,5 @@
 locals {
-  val = max(12,3,25)
+  val = max(12, 3, 25)
 }
 
 

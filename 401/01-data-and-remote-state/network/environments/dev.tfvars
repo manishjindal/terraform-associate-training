@@ -1,2 +1,2 @@
-project_id="<project-id>"
-region="us-central1"
+project_id = "<project-id>"
+region     = "us-central1"

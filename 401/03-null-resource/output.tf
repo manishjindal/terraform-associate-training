@@ -1,3 +1,3 @@
 output "null" {
-    value = null_resource.patch
+  value = null_resource.patch
 }

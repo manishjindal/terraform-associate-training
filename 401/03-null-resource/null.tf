@@ -29,6 +29,6 @@ resource "null_resource" "patch1" {
 
   provisioner "local-exec" {
     interpreter = ["/bin/bash", "-c"]
-    command = "echo ${local.kubeconfig} > kube.txt"
+    command     = "echo ${local.kubeconfig} > kube.txt"
   }
 }

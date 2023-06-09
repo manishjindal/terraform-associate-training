@@ -1,4 +1,4 @@
-output instance_id {
+output "instance_id" {
   value       = google_compute_instance.default
   sensitive   = true
   description = "description"

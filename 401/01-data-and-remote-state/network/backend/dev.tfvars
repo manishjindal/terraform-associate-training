@@ -1,2 +1,2 @@
-bucket="<backend-bucket>"
-prefix="terraform/network"
+bucket = "<backend-bucket>"
+prefix = "terraform/network"

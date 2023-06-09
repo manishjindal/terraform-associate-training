@@ -1,4 +1,4 @@
-variable project_id {
+variable "project_id" {
   type        = string
   default     = "<project_id>"
   description = "description"
@@ -9,11 +9,11 @@ variable "allow_rules" {
   default = {
     icmp = {
       protocol = "icmp"
-      ports = []
+      ports    = []
     },
     tcp = {
       protocol = "tcp"
-      ports = ["80", "8080", "1000-2000"]
+      ports    = ["80", "8080", "1000-2000"]
     }
   }
 }

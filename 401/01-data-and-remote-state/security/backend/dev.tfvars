@@ -1,2 +1,2 @@
-bucket="<backend-bucket>"
-prefix="terraform/security"
+bucket = "<backend-bucket>"
+prefix = "terraform/security"
