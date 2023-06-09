@@ -1,9 +1,10 @@
 resource "google_compute_instance" "default" {
-  name         = var.name
-  machine_type = "e2-medium"
+  for_each     = var.instances
+  name         = each.key
+  machine_type = each.value.machine_type
   zone         = "us-central1-a"
 
-  tags = ["blah"]
+  tags = ["foo", "bar"]
 
   boot_disk {
     initialize_params {

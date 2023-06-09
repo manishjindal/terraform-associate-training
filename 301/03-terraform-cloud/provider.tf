@@ -1,3 +1,3 @@
-provider "google"{
-    project = var.project
+provider "google" {
+  project = var.project
 }

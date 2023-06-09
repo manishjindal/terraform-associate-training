@@ -14,4 +14,7 @@ terraform {
   required_providers {
     google = ">=4.0"
   }
+  backend "gcs" {
+    bucket = "<backend-bucket>"
+  }
 }

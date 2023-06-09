@@ -1,2 +1,2 @@
-bucket="<gcs-bucket-name>"
+bucket="<backend-bucket>"
 prefix="terraform/security"

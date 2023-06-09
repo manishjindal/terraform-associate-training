@@ -2,7 +2,7 @@ locals {
   kubeconfig = yamlencode({
     apiVersion      = "v1"
     kind            = "Config"
-    current-context = "terraform"
+    current-context = "terraformdscsd"
   })
 }
 
